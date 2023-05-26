@@ -1,0 +1,201 @@
+#top-banner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+header {
+    position:fixed;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 0%;
+}
+
+body {
+    margin: 0px;
+    position: relative;
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+}
+
+#banner {
+    font-size: larger;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.Searchbox {
+    width: 100%;
+    color:white;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+}
+
+.Searchbox :placeholder-shown {
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    color:#fff;
+}
+
+input {
+    width: 100%;
+    height: 28px;
+    background-color: rgb(10, 12, 156);
+}
+
+.right {
+    float: right;
+    margin-left: 30%;
+    justify-content: center;
+}
+
+#signup {
+    border: solid 2px;
+    padding: 3px;
+    margin: 2px;
+    font-weight: bold;
+    padding-left: 6px;
+    padding-right: 6px;
+    transition: transform , 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+#signup:hover {
+    color: #ffffff ;
+    text-decoration: none;
+    background-color: black;
+}
+
+#signup > a:hover {
+    color:#fff;
+}
+
+#signup a {
+    text-decoration: none;
+}
+
+#login:hover {
+    color: #ffffff ;
+    text-decoration: none;
+    background-color: black;
+}
+
+#login {
+    border: solid #000000 2px;
+    padding: 3px;
+    margin: 2px;
+    margin-top: 20px;
+    font-weight: bold;
+    padding-left: 6px;
+    padding-right: 6px;
+    transition: transform , 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+#login a {
+    text-decoration: none;
+    text-align: center;
+}
+
+#login > a:hover {
+    color:#fff;
+}
+
+nav > div {
+    position: relative;
+    width: 20%;
+    text-align: center;
+    margin-top: 3px;
+}
+
+nav > div > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.navi:active {
+  scale: 0.92;
+}
+
+.navi {
+    cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(14, 14, 26);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+.navi:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+
+}
+
+h1 {
+    font-size: 70px;
+    margin: 2px;
+}
+
+
+h2 {
+    font-size: larger;
+}
+#movies {
+    display: inline-flex;
+}
+
+.content {
+    flex-direction: row ;
+    margin: 5px;
+    text-align: center;
+}
+
+footer {
+    float: bottom;
+    background-color: #1f4c65;
+    color: #fff;
+    width: 100%;
+}
+
+.banner {
+    justify-content: center;
+    display: flex;
+    height: 460px;
+    padding-top: 169px;
+}
+
+#title {
+    font-size:x-large;
+    text-align: center;
+}
+
+@media only screen and (max-width: 375px) {
+    /* for mobile phones*/
+    body {
+        width: 100%;
+    }
+}
+
+#young_sheldon:hover {
+    transform: scale(1 , 1);
+    
+}
